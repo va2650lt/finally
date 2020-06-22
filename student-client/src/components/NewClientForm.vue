@@ -47,7 +47,7 @@ export default {
         addClient() {
             this.errors = []
             if (this.newClientName && this.newEmail) {
-                let client = { name: this.newClientName, email: this.email, phone: phone, issue: issue }
+                let client = { name: this.newClientName, email: this.newEmail, phone: this.newPhone, issue: this.newIssue }
                 this.$emit('client-added', client)
                 this.newClientName = ''
                 this.newEmail = ''
