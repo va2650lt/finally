@@ -1,8 +1,9 @@
 <template>
   <tr class="client-row"  v-bind:class="'present-' + client.present">    
     <td>{{ client.name }}</td>
-    <td>{{ client.starID }}</td>
-    <td><input type="checkbox" v-model="client.present" v-on:change="checked(client)"></td>
+    <td>{{ client.email }}</td>
+    <td>{{ client.phone }}</td>
+    <td>{{ client.issue }}</td>
     <td v-show="edit">
         <img class="delete-icon" v-on:click="deleteClient(client)" src="@/assets/delete.png">
     </td>
