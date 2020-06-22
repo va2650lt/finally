@@ -17,7 +17,7 @@
                     <input id="email" class="form-control" v-model.trim="newEmail">
                 </div>
                 <div class="form-group">
-                    <label for="phone">EPhone</label>
+                    <label for="phone">Phone</label>
                     <input id="phone" class="form-control" v-model.trim="newPhone">
                 </div>
                 <div class="form-group">
